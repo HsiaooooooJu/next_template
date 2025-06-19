@@ -1,0 +1,13 @@
+# Ignore lockfile
+package-lock.json
+
+# Ignore configs
+next.config.ts
+eslint.config.mjs
+postcss.config.mjs
+tsconfig.json
+package.json
+.prettierrc
+
+# Ignore docs
+README.md

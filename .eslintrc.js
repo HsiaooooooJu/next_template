@@ -1,0 +1,7 @@
+module.exports = {
+	extends: ["next", "eslint:recommended", "plugin:prettier/recommended"],
+	rules: {
+		"no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+		"no-console": ["warn", { allow: ["warn", "error"] }],
+	},
+};
